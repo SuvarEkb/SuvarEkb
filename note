@@ -1,0 +1,22 @@
+cat basketball.txt > hockey.txt.   Redirect the standard output
+      cat lacrosse.txt >> tennis.txt.       Append the contents 
+      cat < gymnastics.txt                 redirect the contents as standard input 
+
+      cat lacrosse.txt | wc.       wordcount command.
+
+cat lakes.txt | sort
+cat lakes.txt | sort > sorted-lakes.txt 
+
+sort deserts.txt | uniq     command to filter out adjacent, duplicate lines
+
+
+
+grep -i Mount mountains.txt.            without case sensitivity.
+
+grep -R Island          filenames and lines with matching results.
+grep -Rl Island.        so no lines
+
+sed 's/snow/rain/' forests.txt          replacement
+sed 's/snow/rain/g' forests.txt        all replacements
+sed -i 's/snow/rain/g' forests.txt.    permanently replace
+
